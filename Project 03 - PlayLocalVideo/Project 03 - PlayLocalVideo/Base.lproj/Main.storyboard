@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="cvi-CG-TJq">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--PlayLocalVideo-->
+        <scene sceneID="FMC-zZ-ONh">
+            <objects>
+                <tableViewController id="O4f-UM-xGD" customClass="TableViewController" customModule="Project_03___PlayLocalVideo" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="220" sectionHeaderHeight="28" sectionFooterHeight="28" id="rE5-WH-Uau">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="VideoTableViewCell" id="3lA-y1-n5I" customClass="VideoTableViewCell" customModule="Project_03___PlayLocalVideo" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="92" width="600" height="220"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3lA-y1-n5I" id="Dbq-gT-iau">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="220"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ApR-Yg-jzR">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="220"/>
+                                        </imageView>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ab5-Td-RvO">
+                                            <rect key="frame" x="270" y="80" width="60" height="60"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="60" id="1Vh-gb-OzN"/>
+                                            </constraints>
+                                            <state key="normal" image="playBtn"/>
+                                            <connections>
+                                                <action selector="playBtnClick:" destination="O4f-UM-xGD" eventType="touchUpInside" id="eUj-tI-0zA"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="ApR-Yg-jzR" firstAttribute="top" secondItem="Dbq-gT-iau" secondAttribute="top" id="2Vz-KF-qqe"/>
+                                        <constraint firstAttribute="trailing" secondItem="ApR-Yg-jzR" secondAttribute="trailing" id="4Sh-XT-SbC"/>
+                                        <constraint firstAttribute="bottom" secondItem="ApR-Yg-jzR" secondAttribute="bottom" id="RwM-pp-wv9"/>
+                                        <constraint firstItem="ab5-Td-RvO" firstAttribute="centerY" secondItem="Dbq-gT-iau" secondAttribute="centerY" id="STC-EO-05w"/>
+                                        <constraint firstItem="ab5-Td-RvO" firstAttribute="centerX" secondItem="Dbq-gT-iau" secondAttribute="centerX" id="wrX-d8-ZED"/>
+                                        <constraint firstItem="ApR-Yg-jzR" firstAttribute="leading" secondItem="Dbq-gT-iau" secondAttribute="leading" id="zT6-NC-vQS"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="backgroundImageView" destination="ApR-Yg-jzR" id="pkJ-32-v7N"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="O4f-UM-xGD" id="1xD-qb-HrV"/>
+                            <outlet property="delegate" destination="O4f-UM-xGD" id="cLq-Of-pFA"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="PlayLocalVideo" id="aEG-Ch-Wqs"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nkc-Gz-4RP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="997" y="344"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="uRV-wI-wLF">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cvi-CG-TJq" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="YFs-19-xFb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="O4f-UM-xGD" kind="relationship" relationship="rootViewController" id="c8S-kO-ywG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2i1-fb-Sch" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="185" y="344"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="playBtn" width="60" height="60"/>
+    </resources>
+</document>
