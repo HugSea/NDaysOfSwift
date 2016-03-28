@@ -17,3 +17,12 @@
 ![](https://github.com/HugSea/NDaysOfSwift/raw/master/Project 03 - PlayLocalVideo/PlayLocalVideo.gif)<br>
 >Used technology:
 >>AVFoundation and AVKit play local video
+
+=
+##### Project 04 - SnapChatMenu
+![](https://github.com/HugSea/NDaysOfSwift/raw/master/Project 04 - SnapChatMenu/SnapChatMenu.gif)<br>
+>Used technology:
+>>AVFoundation to capture photo
+>>AVCaptureSession
+>>AVCaptureVideoPreviewLayer
+>>...
