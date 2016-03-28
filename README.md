@@ -22,7 +22,7 @@
 ##### Project 04 - SnapChatMenu
 ![](https://github.com/HugSea/NDaysOfSwift/raw/master/Project 04 - SnapChatMenu/SnapChatMenu.gif)<br>
 >Used technology:
->>AVFoundation to capture photo
->>AVCaptureSession
->>AVCaptureVideoPreviewLayer
->>...
+>>AVFoundation to capture photo<br>
+>>AVCaptureSession<br>
+>>AVCaptureVideoPreviewLayer<br>
+>>...<br>
