@@ -25,4 +25,12 @@
 >>AVFoundation to capture photo<br>
 >>AVCaptureSession<br>
 >>AVCaptureVideoPreviewLayer<br>
->>...<br>
+>>...
+
+=
+##### Project 05 - CarouselEffect
+![](https://github.com/HugSea/NDaysOfSwift/raw/master/Project 05 - CarouselEffect/CarouselEffect.gif)<br>
+>Used technology:
+>>MVC<br>
+>>UIVisualEffectView<br>
+>>UICollectionView
