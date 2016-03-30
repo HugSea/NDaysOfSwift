@@ -34,3 +34,10 @@
 >>MVC<br>
 >>UIVisualEffectView<br>
 >>UICollectionView
+
+=
+##### Project 06 - FindMyLocation
+![](https://github.com/HugSea/NDaysOfSwift/raw/master/Project 06 - FindMyLocation/FindMyLocation.gif)<br>
+>Used technology:
+>>Use CoreLocation framework<br>
+>>Main use CLLocationManager, CLGeocoder and CLPlaceMark
