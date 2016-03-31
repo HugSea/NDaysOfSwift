@@ -41,3 +41,9 @@
 >Used technology:
 >>Use CoreLocation framework<br>
 >>Main use CLLocationManager, CLGeocoder and CLPlaceMark
+
+=
+##### Project 07 - PullToRefresh
+![](https://github.com/HugSea/NDaysOfSwift/raw/master/Project 07 - PullToRefresh/PullToRefresh.gif)<br>
+>Used technology:
+>>UITableViewController’s refreshControl
