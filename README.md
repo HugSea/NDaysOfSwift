@@ -47,3 +47,10 @@
 ![](https://github.com/HugSea/NDaysOfSwift/raw/master/Project 07 - PullToRefresh/PullToRefresh.gif)<br>
 >Used technology:
 >>UITableViewController’s refreshControl
+
+=
+##### Project 08 - RandomGradientColorMusic
+![](https://github.com/HugSea/NDaysOfSwift/raw/master/Project 08 - RandomGradientColorMusic/RandomGradientColorMusic.gif)<br>
+>Used technology:
+>>CAGradientLayer: color gradient<br>
+>>AVAudioPlayer: player music
