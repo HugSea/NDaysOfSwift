@@ -54,3 +54,11 @@
 >Used technology:
 >>CAGradientLayer: color gradient<br>
 >>AVAudioPlayer: player music
+
+=
+##### Project 09 - PhotoAlbumMultiSelect
+![](https://github.com/HugSea/NDaysOfSwift/raw/master/Project 09 - PhotoAlbumMultiSelect/PhotoAlbumMultiSelect.gif)<br>
+>Used technology:
+>>AssetsLibrary.framework to gain all photos in photo album<br>
+>>UICollectionView show all photo<br>
+>>CAKeyframeAnimation do click animation
