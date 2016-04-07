@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchImage-800" translatesAutoresizingMaskIntoConstraints="NO" id="Qda-cp-oPH">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Qda-cp-oPH" secondAttribute="trailing" id="AEZ-6y-dby"/>
+                            <constraint firstItem="Qda-cp-oPH" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="M1Y-CR-4Ub"/>
+                            <constraint firstItem="Qda-cp-oPH" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="X0v-0L-n6X"/>
+                            <constraint firstItem="Qda-cp-oPH" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="YMJ-hh-Twt"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Qda-cp-oPH" secondAttribute="bottom" id="deL-t9-pZZ"/>
+                            <constraint firstItem="Qda-cp-oPH" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="gff-n5-Qxv"/>
+                            <constraint firstItem="Qda-cp-oPH" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="jNK-kQ-bFC"/>
+                            <constraint firstItem="Qda-cp-oPH" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="xH7-23-bhr"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="YMJ-hh-Twt"/>
+                                <exclude reference="gff-n5-Qxv"/>
+                                <exclude reference="jNK-kQ-bFC"/>
+                                <exclude reference="xH7-23-bhr"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LaunchImage-800" width="375" height="667"/>
+    </resources>
+</document>

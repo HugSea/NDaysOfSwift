@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project_10___VideoBackground" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NI4-bm-Y9F">
+                                <rect key="frame" x="50" y="442" width="500" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.6951899806658427" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="hHd-Lz-rof"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="15"/>
+                                <state key="normal" title="登录">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J6B-GR-NSR">
+                                <rect key="frame" x="50" y="509" width="500" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="qz9-PU-Hhw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="15"/>
+                                <state key="normal" title="注册">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login-secondary-logo" translatesAutoresizingMaskIntoConstraints="NO" id="BJ0-JI-yt7">
+                                <rect key="frame" x="191" y="120" width="218" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="BJ0-JI-yt7" secondAttribute="height" multiplier="109:33" id="5lK-pe-DcV"/>
+                                    <constraint firstAttribute="width" constant="218" id="PnN-7Q-vAc"/>
+                                    <constraint firstAttribute="width" secondItem="BJ0-JI-yt7" secondAttribute="height" multiplier="15:8" id="k7c-iB-5VP"/>
+                                    <constraint firstAttribute="height" constant="66" id="od3-aT-dJg"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="k7c-iB-5VP"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BJ0-JI-yt7" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="2:5" id="2Pw-sd-Upy"/>
+                            <constraint firstItem="BJ0-JI-yt7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3C8-fn-eWC"/>
+                            <constraint firstItem="BJ0-JI-yt7" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="109:300" id="BPq-qW-x8j"/>
+                            <constraint firstItem="BJ0-JI-yt7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EeX-Qh-xGD"/>
+                            <constraint firstItem="J6B-GR-NSR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="HpQ-VD-Q6L"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="J6B-GR-NSR" secondAttribute="bottom" constant="51" id="IPy-q9-pVL"/>
+                            <constraint firstItem="NI4-bm-Y9F" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="LG4-Y9-Og2"/>
+                            <constraint firstItem="BJ0-JI-yt7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="Ovb-Tf-vGw"/>
+                            <constraint firstItem="BJ0-JI-yt7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Ua4-BB-u4q"/>
+                            <constraint firstItem="NI4-bm-Y9F" firstAttribute="centerX" secondItem="J6B-GR-NSR" secondAttribute="centerX" id="Wq0-pN-F5c"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="J6B-GR-NSR" secondAttribute="trailing" constant="30" id="pd5-rn-lHS"/>
+                            <constraint firstItem="J6B-GR-NSR" firstAttribute="top" secondItem="NI4-bm-Y9F" secondAttribute="bottom" constant="27" id="rFV-W2-jsu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NI4-bm-Y9F" secondAttribute="trailing" constant="30" id="tri-k4-2VH"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="2Pw-sd-Upy"/>
+                                <exclude reference="3C8-fn-eWC"/>
+                                <exclude reference="Ua4-BB-u4q"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="392" y="339"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="login-secondary-logo" width="218" height="66"/>
+    </resources>
+</document>
