@@ -62,3 +62,9 @@
 >>AssetsLibrary.framework to gain all photos in photo album<br>
 >>UICollectionView show all photo<br>
 >>CAKeyframeAnimation do click animation
+
+=
+##### Project 10 - VideoBackground
+![](https://github.com/HugSea/NDaysOfSwift/raw/master/Project 10 - VideoBackground/VideoBackground.gif)<br>
+>Used technology:
+>>AVPlayerViewController to play background video
