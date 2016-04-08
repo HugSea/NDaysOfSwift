@@ -68,3 +68,10 @@
 ![](https://github.com/HugSea/NDaysOfSwift/raw/master/Project 10 - VideoBackground/VideoBackground.gif)<br>
 >Used technology:
 >>AVPlayerViewController to play background video
+
+=
+##### Project 11 - ClearTableViewCell
+![](https://github.com/HugSea/NDaysOfSwift/raw/master/Project 11 - ClearTableViewCell/ClearTableViewCell.gif)<br>
+>Used technology:
+>>CAGradientLayer: color gradient<br>
+>>According to indexPath.row to calculate color
