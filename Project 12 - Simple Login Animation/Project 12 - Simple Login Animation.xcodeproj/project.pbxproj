@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50624C591CB8CC13000570B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50624C581CB8CC13000570B4 /* AppDelegate.swift */; };
+		50624C5B1CB8CC13000570B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50624C5A1CB8CC13000570B4 /* ViewController.swift */; };
+		50624C5E1CB8CC13000570B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50624C5C1CB8CC13000570B4 /* Main.storyboard */; };
+		50624C601CB8CC13000570B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50624C5F1CB8CC13000570B4 /* Assets.xcassets */; };
+		50624C631CB8CC13000570B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50624C611CB8CC13000570B4 /* LaunchScreen.storyboard */; };
+		50624C6C1CB8CF88000570B4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50624C6A1CB8CF88000570B4 /* LoginViewController.swift */; };
+		50624C6D1CB8CF88000570B4 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50624C6B1CB8CF88000570B4 /* LoginViewController.xib */; };
+		50624C6F1CB8DCA7000570B4 /* AnimationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50624C6E1CB8DCA7000570B4 /* AnimationUtil.swift */; };
+		50624C721CB8E861000570B4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50624C701CB8E861000570B4 /* SignUpViewController.swift */; };
+		50624C731CB8E861000570B4 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50624C711CB8E861000570B4 /* SignUpViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50624C551CB8CC13000570B4 /* Project 12 - Simple Login Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 12 - Simple Login Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50624C581CB8CC13000570B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50624C5A1CB8CC13000570B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50624C5D1CB8CC13000570B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50624C5F1CB8CC13000570B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50624C621CB8CC13000570B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50624C641CB8CC13000570B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50624C6A1CB8CF88000570B4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		50624C6B1CB8CF88000570B4 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		50624C6E1CB8DCA7000570B4 /* AnimationUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationUtil.swift; sourceTree = "<group>"; };
+		50624C701CB8E861000570B4 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		50624C711CB8E861000570B4 /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50624C521CB8CC13000570B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50624C4C1CB8CC13000570B4 = {
+			isa = PBXGroup;
+			children = (
+				50624C571CB8CC13000570B4 /* Project 12 - Simple Login Animation */,
+				50624C561CB8CC13000570B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50624C561CB8CC13000570B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50624C551CB8CC13000570B4 /* Project 12 - Simple Login Animation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50624C571CB8CC13000570B4 /* Project 12 - Simple Login Animation */ = {
+			isa = PBXGroup;
+			children = (
+				50624C581CB8CC13000570B4 /* AppDelegate.swift */,
+				50624C5A1CB8CC13000570B4 /* ViewController.swift */,
+				50624C6A1CB8CF88000570B4 /* LoginViewController.swift */,
+				50624C6E1CB8DCA7000570B4 /* AnimationUtil.swift */,
+				50624C6B1CB8CF88000570B4 /* LoginViewController.xib */,
+				50624C701CB8E861000570B4 /* SignUpViewController.swift */,
+				50624C711CB8E861000570B4 /* SignUpViewController.xib */,
+				50624C5C1CB8CC13000570B4 /* Main.storyboard */,
+				50624C5F1CB8CC13000570B4 /* Assets.xcassets */,
+				50624C611CB8CC13000570B4 /* LaunchScreen.storyboard */,
+				50624C641CB8CC13000570B4 /* Info.plist */,
+			);
+			path = "Project 12 - Simple Login Animation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50624C541CB8CC13000570B4 /* Project 12 - Simple Login Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50624C671CB8CC13000570B4 /* Build configuration list for PBXNativeTarget "Project 12 - Simple Login Animation" */;
+			buildPhases = (
+				50624C511CB8CC13000570B4 /* Sources */,
+				50624C521CB8CC13000570B4 /* Frameworks */,
+				50624C531CB8CC13000570B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project 12 - Simple Login Animation";
+			productName = "Project 12 - Simple Login Animation";
+			productReference = 50624C551CB8CC13000570B4 /* Project 12 - Simple Login Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50624C4D1CB8CC13000570B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ZhangQingjie;
+				TargetAttributes = {
+					50624C541CB8CC13000570B4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 50624C501CB8CC13000570B4 /* Build configuration list for PBXProject "Project 12 - Simple Login Animation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50624C4C1CB8CC13000570B4;
+			productRefGroup = 50624C561CB8CC13000570B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50624C541CB8CC13000570B4 /* Project 12 - Simple Login Animation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50624C531CB8CC13000570B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50624C731CB8E861000570B4 /* SignUpViewController.xib in Resources */,
+				50624C6D1CB8CF88000570B4 /* LoginViewController.xib in Resources */,
+				50624C631CB8CC13000570B4 /* LaunchScreen.storyboard in Resources */,
+				50624C601CB8CC13000570B4 /* Assets.xcassets in Resources */,
+				50624C5E1CB8CC13000570B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50624C511CB8CC13000570B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50624C6F1CB8DCA7000570B4 /* AnimationUtil.swift in Sources */,
+				50624C6C1CB8CF88000570B4 /* LoginViewController.swift in Sources */,
+				50624C5B1CB8CC13000570B4 /* ViewController.swift in Sources */,
+				50624C591CB8CC13000570B4 /* AppDelegate.swift in Sources */,
+				50624C721CB8E861000570B4 /* SignUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50624C5C1CB8CC13000570B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50624C5D1CB8CC13000570B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50624C611CB8CC13000570B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50624C621CB8CC13000570B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50624C651CB8CC13000570B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50624C661CB8CC13000570B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50624C681CB8CC13000570B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project 12 - Simple Login Animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZhangQingjie.Project-12---Simple-Login-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50624C691CB8CC13000570B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project 12 - Simple Login Animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZhangQingjie.Project-12---Simple-Login-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50624C501CB8CC13000570B4 /* Build configuration list for PBXProject "Project 12 - Simple Login Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50624C651CB8CC13000570B4 /* Debug */,
+				50624C661CB8CC13000570B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50624C671CB8CC13000570B4 /* Build configuration list for PBXNativeTarget "Project 12 - Simple Login Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50624C681CB8CC13000570B4 /* Debug */,
+				50624C691CB8CC13000570B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50624C4D1CB8CC13000570B4 /* Project object */;
+}
