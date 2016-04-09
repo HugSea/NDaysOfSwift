@@ -75,3 +75,10 @@
 >Used technology:
 >>CAGradientLayer: color gradient<br>
 >>According to indexPath.row to calculate color
+
+=
+##### Project 12 - Simple Login Animation
+![](https://github.com/HugSea/NDaysOfSwift/raw/master/Project 12 - Simple Login Animation/Simple Login Animation.gif)<br>
+>Used technology:
+>>Setup view’s transform and use UIView’s animation to recovery<br>
+>>CALayer’s mask
