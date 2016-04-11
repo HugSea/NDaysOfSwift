@@ -82,3 +82,10 @@
 >Used technology:
 >>Setup view’s transform and use UIView’s animation to recovery<br>
 >>CALayer’s mask
+
+=
+##### Project 13 - Animate TableViewCell
+![](https://github.com/HugSea/NDaysOfSwift/raw/master/Project 13 - Animate TableViewCell/Animate TableViewCell.gif)<br>
+>Used technology:
+>>Color’s gradient look Project 11<br>
+>>Animation: ViewWillAppear methods setting visibleCells’s transform and use UIView’s animation to recovery(first reload tableview)
