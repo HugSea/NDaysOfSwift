@@ -89,3 +89,9 @@
 >Used technology:
 >>Color’s gradient look Project 11<br>
 >>Animation: ViewWillAppear methods setting visibleCells’s transform and use UIView’s animation to recovery(first reload tableview)
+
+=
+##### Project 14 - LotteryMachine
+![](https://github.com/HugSea/NDaysOfSwift/raw/master/Project 14 - LotteryMachine/LotteryMachine.gif)<br>
+>Used technology:
+>>UIPickerView’s DataSource and Delegate Methods
