@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project_14___LotteryMachine" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K5w-R2-Qvq">
+                                <rect key="frame" x="20" y="70" width="560" height="350"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="350" id="hRv-I0-Wg7"/>
+                                    <constraint firstAttribute="width" constant="510" id="loM-av-fUX"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="hRv-I0-Wg7"/>
+                                        <exclude reference="loM-av-fUX"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="CVh-Kp-fbh"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="9Rf-VC-VTT"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5n3-4L-xYM">
+                                <rect key="frame" x="224" y="518" width="153" height="40"/>
+                                <color key="backgroundColor" red="0.1058823529" green="0.59999999999999998" blue="0.023529411760000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="tIf-jN-NTN"/>
+                                    <constraint firstAttribute="width" constant="153" id="wsI-ox-Bbe"/>
+                                </constraints>
+                                <state key="normal" title="GO">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="go:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d1B-GI-yAw"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wrong" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lN3-c0-2RX">
+                                <rect key="frame" x="274.5" y="437" width="51" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.061281852424144745" green="0.47151100635528564" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="K5w-R2-Qvq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1x4-WA-VeM"/>
+                            <constraint firstItem="5n3-4L-xYM" firstAttribute="top" secondItem="K5w-R2-Qvq" secondAttribute="bottom" constant="98" id="5Nr-36-rTx"/>
+                            <constraint firstItem="K5w-R2-Qvq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="5w0-ru-bHB"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="K5w-R2-Qvq" secondAttribute="bottom" constant="329" id="9nj-Ux-a7B"/>
+                            <constraint firstItem="5n3-4L-xYM" firstAttribute="top" secondItem="lN3-c0-2RX" secondAttribute="bottom" constant="60" id="G8j-Qb-fSI"/>
+                            <constraint firstItem="5n3-4L-xYM" firstAttribute="top" secondItem="lN3-c0-2RX" secondAttribute="bottom" constant="60" id="Q7W-cc-LWe"/>
+                            <constraint firstItem="K5w-R2-Qvq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="U0T-cs-aHU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="K5w-R2-Qvq" secondAttribute="trailing" id="YVF-sj-871"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5n3-4L-xYM" secondAttribute="bottom" constant="42" id="cli-UH-fC3"/>
+                            <constraint firstItem="K5w-R2-Qvq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="dNf-9g-yRj"/>
+                            <constraint firstItem="lN3-c0-2RX" firstAttribute="top" secondItem="K5w-R2-Qvq" secondAttribute="bottom" constant="17" id="ekM-Fb-mLF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="K5w-R2-Qvq" secondAttribute="trailing" constant="10" id="gVN-hx-8JW"/>
+                            <constraint firstItem="lN3-c0-2RX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hj0-ok-0DU"/>
+                            <constraint firstItem="5n3-4L-xYM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pFV-kh-qvS"/>
+                            <constraint firstItem="K5w-R2-Qvq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="srr-CQ-DYd"/>
+                            <constraint firstItem="K5w-R2-Qvq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="vJt-wS-KCJ"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="1x4-WA-VeM"/>
+                                <exclude reference="5w0-ru-bHB"/>
+                                <exclude reference="U0T-cs-aHU"/>
+                                <exclude reference="gVN-hx-8JW"/>
+                                <exclude reference="vJt-wS-KCJ"/>
+                                <exclude reference="G8j-Qb-fSI"/>
+                                <exclude reference="9nj-Ux-a7B"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="pickView" destination="K5w-R2-Qvq" id="MrM-VE-jHD"/>
+                        <outlet property="result" destination="lN3-c0-2RX" id="uEP-IL-Qc6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="263" y="339"/>
+        </scene>
+    </scenes>
+</document>
