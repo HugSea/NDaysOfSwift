@@ -95,3 +95,10 @@
 ![](https://github.com/HugSea/NDaysOfSwift/raw/master/Project 14 - LotteryMachine/LotteryMachine.gif)<br>
 >Used technology:
 >>UIPickerView’s DataSource and Delegate Methods
+
+=
+##### Project 15 - AnimationTwitter
+![](https://github.com/HugSea/NDaysOfSwift/raw/master/Project 15 - AnimationTwitter/AnimationTwitter.gif)<br>
+>Used technology:
+>>CALayer’s mask<br>
+>>CAKeyframeAnimation(keyPath: "bounds")
