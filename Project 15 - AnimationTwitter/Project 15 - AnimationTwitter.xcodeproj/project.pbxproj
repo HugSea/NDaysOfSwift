@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50FA0E101CBDE96B00936ADF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA0E0F1CBDE96B00936ADF /* AppDelegate.swift */; };
+		50FA0E121CBDE96B00936ADF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA0E111CBDE96B00936ADF /* ViewController.swift */; };
+		50FA0E151CBDE96B00936ADF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FA0E131CBDE96B00936ADF /* Main.storyboard */; };
+		50FA0E171CBDE96B00936ADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50FA0E161CBDE96B00936ADF /* Assets.xcassets */; };
+		50FA0E1A1CBDE96B00936ADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FA0E181CBDE96B00936ADF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50FA0E0C1CBDE96B00936ADF /* Project 15 - AnimationTwitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 15 - AnimationTwitter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50FA0E0F1CBDE96B00936ADF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50FA0E111CBDE96B00936ADF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50FA0E141CBDE96B00936ADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50FA0E161CBDE96B00936ADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50FA0E191CBDE96B00936ADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50FA0E1B1CBDE96B00936ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50FA0E091CBDE96B00936ADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50FA0E031CBDE96B00936ADF = {
+			isa = PBXGroup;
+			children = (
+				50FA0E0E1CBDE96B00936ADF /* Project 15 - AnimationTwitter */,
+				50FA0E0D1CBDE96B00936ADF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50FA0E0D1CBDE96B00936ADF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50FA0E0C1CBDE96B00936ADF /* Project 15 - AnimationTwitter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50FA0E0E1CBDE96B00936ADF /* Project 15 - AnimationTwitter */ = {
+			isa = PBXGroup;
+			children = (
+				50FA0E0F1CBDE96B00936ADF /* AppDelegate.swift */,
+				50FA0E111CBDE96B00936ADF /* ViewController.swift */,
+				50FA0E131CBDE96B00936ADF /* Main.storyboard */,
+				50FA0E161CBDE96B00936ADF /* Assets.xcassets */,
+				50FA0E181CBDE96B00936ADF /* LaunchScreen.storyboard */,
+				50FA0E1B1CBDE96B00936ADF /* Info.plist */,
+			);
+			path = "Project 15 - AnimationTwitter";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50FA0E0B1CBDE96B00936ADF /* Project 15 - AnimationTwitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50FA0E1E1CBDE96B00936ADF /* Build configuration list for PBXNativeTarget "Project 15 - AnimationTwitter" */;
+			buildPhases = (
+				50FA0E081CBDE96B00936ADF /* Sources */,
+				50FA0E091CBDE96B00936ADF /* Frameworks */,
+				50FA0E0A1CBDE96B00936ADF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project 15 - AnimationTwitter";
+			productName = "Project 15 - AnimationTwitter";
+			productReference = 50FA0E0C1CBDE96B00936ADF /* Project 15 - AnimationTwitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50FA0E041CBDE96B00936ADF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ZhangQingjie;
+				TargetAttributes = {
+					50FA0E0B1CBDE96B00936ADF = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 50FA0E071CBDE96B00936ADF /* Build configuration list for PBXProject "Project 15 - AnimationTwitter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50FA0E031CBDE96B00936ADF;
+			productRefGroup = 50FA0E0D1CBDE96B00936ADF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50FA0E0B1CBDE96B00936ADF /* Project 15 - AnimationTwitter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50FA0E0A1CBDE96B00936ADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50FA0E1A1CBDE96B00936ADF /* LaunchScreen.storyboard in Resources */,
+				50FA0E171CBDE96B00936ADF /* Assets.xcassets in Resources */,
+				50FA0E151CBDE96B00936ADF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50FA0E081CBDE96B00936ADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50FA0E121CBDE96B00936ADF /* ViewController.swift in Sources */,
+				50FA0E101CBDE96B00936ADF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50FA0E131CBDE96B00936ADF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50FA0E141CBDE96B00936ADF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50FA0E181CBDE96B00936ADF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50FA0E191CBDE96B00936ADF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50FA0E1C1CBDE96B00936ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50FA0E1D1CBDE96B00936ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50FA0E1F1CBDE96B00936ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Project 15 - AnimationTwitter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZhangQingjie.Project-15---AnimationTwitter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3d3a506b-d9b0-411e-ab05-56e016e68699";
+			};
+			name = Debug;
+		};
+		50FA0E201CBDE96B00936ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Project 15 - AnimationTwitter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZhangQingjie.Project-15---AnimationTwitter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3d3a506b-d9b0-411e-ab05-56e016e68699";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50FA0E071CBDE96B00936ADF /* Build configuration list for PBXProject "Project 15 - AnimationTwitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50FA0E1C1CBDE96B00936ADF /* Debug */,
+				50FA0E1D1CBDE96B00936ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50FA0E1E1CBDE96B00936ADF /* Build configuration list for PBXNativeTarget "Project 15 - AnimationTwitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50FA0E1F1CBDE96B00936ADF /* Debug */,
+				50FA0E201CBDE96B00936ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50FA0E041CBDE96B00936ADF /* Project object */;
+}
