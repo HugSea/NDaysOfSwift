@@ -102,3 +102,9 @@
 >Used technology:
 >>CALayer’s mask<br>
 >>CAKeyframeAnimation(keyPath: "bounds")
+
+=
+##### Project 16 - UITableViewCountdown
+![](https://github.com/HugSea/NDaysOfSwift/raw/master/Project 16 - UITableViewCountdown/UITableViewCountdown.gif)<br>
+>Used technology:
+>>NSTimer and NSNotification
