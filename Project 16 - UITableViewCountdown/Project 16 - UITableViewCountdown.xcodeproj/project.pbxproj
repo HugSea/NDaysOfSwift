@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		505BE5E51CC336F400FC5BC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505BE5E41CC336F400FC5BC4 /* AppDelegate.swift */; };
+		505BE5EA1CC336F400FC5BC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505BE5E81CC336F400FC5BC4 /* Main.storyboard */; };
+		505BE5EC1CC336F400FC5BC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 505BE5EB1CC336F400FC5BC4 /* Assets.xcassets */; };
+		505BE5EF1CC336F400FC5BC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505BE5ED1CC336F400FC5BC4 /* LaunchScreen.storyboard */; };
+		505BE5FA1CC336F400FC5BC4 /* Project_16___UITableViewCountdownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505BE5F91CC336F400FC5BC4 /* Project_16___UITableViewCountdownTests.swift */; };
+		505BE6051CC336F400FC5BC4 /* Project_16___UITableViewCountdownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505BE6041CC336F400FC5BC4 /* Project_16___UITableViewCountdownUITests.swift */; };
+		505BE6141CC3384D00FC5BC4 /* TimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505BE6121CC3384D00FC5BC4 /* TimeTableViewCell.swift */; };
+		505BE6151CC3384D00FC5BC4 /* TimeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 505BE6131CC3384D00FC5BC4 /* TimeTableViewCell.xib */; };
+		505BE6171CC3396A00FC5BC4 /* TimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505BE6161CC3396A00FC5BC4 /* TimeModel.swift */; };
+		505BE6191CC33AEE00FC5BC4 /* TimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505BE6181CC33AEE00FC5BC4 /* TimeTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		505BE5F61CC336F400FC5BC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 505BE5D91CC336F300FC5BC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 505BE5E01CC336F400FC5BC4;
+			remoteInfo = "Project 16 - UITableViewCountdown";
+		};
+		505BE6011CC336F400FC5BC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 505BE5D91CC336F300FC5BC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 505BE5E01CC336F400FC5BC4;
+			remoteInfo = "Project 16 - UITableViewCountdown";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		505BE5E11CC336F400FC5BC4 /* Project 16 - UITableViewCountdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 16 - UITableViewCountdown.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		505BE5E41CC336F400FC5BC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		505BE5E91CC336F400FC5BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		505BE5EB1CC336F400FC5BC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		505BE5EE1CC336F400FC5BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		505BE5F01CC336F400FC5BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		505BE5F51CC336F400FC5BC4 /* Project 16 - UITableViewCountdownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 16 - UITableViewCountdownTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		505BE5F91CC336F400FC5BC4 /* Project_16___UITableViewCountdownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project_16___UITableViewCountdownTests.swift"; sourceTree = "<group>"; };
+		505BE5FB1CC336F400FC5BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		505BE6001CC336F400FC5BC4 /* Project 16 - UITableViewCountdownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 16 - UITableViewCountdownUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		505BE6041CC336F400FC5BC4 /* Project_16___UITableViewCountdownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project_16___UITableViewCountdownUITests.swift"; sourceTree = "<group>"; };
+		505BE6061CC336F400FC5BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		505BE6121CC3384D00FC5BC4 /* TimeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTableViewCell.swift; sourceTree = "<group>"; };
+		505BE6131CC3384D00FC5BC4 /* TimeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeTableViewCell.xib; sourceTree = "<group>"; };
+		505BE6161CC3396A00FC5BC4 /* TimeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeModel.swift; sourceTree = "<group>"; };
+		505BE6181CC33AEE00FC5BC4 /* TimeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		505BE5DE1CC336F400FC5BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505BE5F21CC336F400FC5BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505BE5FD1CC336F400FC5BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		505BE5D81CC336F300FC5BC4 = {
+			isa = PBXGroup;
+			children = (
+				505BE5E31CC336F400FC5BC4 /* Project 16 - UITableViewCountdown */,
+				505BE5F81CC336F400FC5BC4 /* Project 16 - UITableViewCountdownTests */,
+				505BE6031CC336F400FC5BC4 /* Project 16 - UITableViewCountdownUITests */,
+				505BE5E21CC336F400FC5BC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		505BE5E21CC336F400FC5BC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				505BE5E11CC336F400FC5BC4 /* Project 16 - UITableViewCountdown.app */,
+				505BE5F51CC336F400FC5BC4 /* Project 16 - UITableViewCountdownTests.xctest */,
+				505BE6001CC336F400FC5BC4 /* Project 16 - UITableViewCountdownUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		505BE5E31CC336F400FC5BC4 /* Project 16 - UITableViewCountdown */ = {
+			isa = PBXGroup;
+			children = (
+				505BE5E41CC336F400FC5BC4 /* AppDelegate.swift */,
+				505BE6181CC33AEE00FC5BC4 /* TimeTableViewController.swift */,
+				505BE5E81CC336F400FC5BC4 /* Main.storyboard */,
+				505BE6121CC3384D00FC5BC4 /* TimeTableViewCell.swift */,
+				505BE6131CC3384D00FC5BC4 /* TimeTableViewCell.xib */,
+				505BE6161CC3396A00FC5BC4 /* TimeModel.swift */,
+				505BE5EB1CC336F400FC5BC4 /* Assets.xcassets */,
+				505BE5ED1CC336F400FC5BC4 /* LaunchScreen.storyboard */,
+				505BE5F01CC336F400FC5BC4 /* Info.plist */,
+			);
+			path = "Project 16 - UITableViewCountdown";
+			sourceTree = "<group>";
+		};
+		505BE5F81CC336F400FC5BC4 /* Project 16 - UITableViewCountdownTests */ = {
+			isa = PBXGroup;
+			children = (
+				505BE5F91CC336F400FC5BC4 /* Project_16___UITableViewCountdownTests.swift */,
+				505BE5FB1CC336F400FC5BC4 /* Info.plist */,
+			);
+			path = "Project 16 - UITableViewCountdownTests";
+			sourceTree = "<group>";
+		};
+		505BE6031CC336F400FC5BC4 /* Project 16 - UITableViewCountdownUITests */ = {
+			isa = PBXGroup;
+			children = (
+				505BE6041CC336F400FC5BC4 /* Project_16___UITableViewCountdownUITests.swift */,
+				505BE6061CC336F400FC5BC4 /* Info.plist */,
+			);
+			path = "Project 16 - UITableViewCountdownUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		505BE5E01CC336F400FC5BC4 /* Project 16 - UITableViewCountdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 505BE6091CC336F400FC5BC4 /* Build configuration list for PBXNativeTarget "Project 16 - UITableViewCountdown" */;
+			buildPhases = (
+				505BE5DD1CC336F400FC5BC4 /* Sources */,
+				505BE5DE1CC336F400FC5BC4 /* Frameworks */,
+				505BE5DF1CC336F400FC5BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project 16 - UITableViewCountdown";
+			productName = "Project 16 - UITableViewCountdown";
+			productReference = 505BE5E11CC336F400FC5BC4 /* Project 16 - UITableViewCountdown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		505BE5F41CC336F400FC5BC4 /* Project 16 - UITableViewCountdownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 505BE60C1CC336F400FC5BC4 /* Build configuration list for PBXNativeTarget "Project 16 - UITableViewCountdownTests" */;
+			buildPhases = (
+				505BE5F11CC336F400FC5BC4 /* Sources */,
+				505BE5F21CC336F400FC5BC4 /* Frameworks */,
+				505BE5F31CC336F400FC5BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				505BE5F71CC336F400FC5BC4 /* PBXTargetDependency */,
+			);
+			name = "Project 16 - UITableViewCountdownTests";
+			productName = "Project 16 - UITableViewCountdownTests";
+			productReference = 505BE5F51CC336F400FC5BC4 /* Project 16 - UITableViewCountdownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		505BE5FF1CC336F400FC5BC4 /* Project 16 - UITableViewCountdownUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 505BE60F1CC336F400FC5BC4 /* Build configuration list for PBXNativeTarget "Project 16 - UITableViewCountdownUITests" */;
+			buildPhases = (
+				505BE5FC1CC336F400FC5BC4 /* Sources */,
+				505BE5FD1CC336F400FC5BC4 /* Frameworks */,
+				505BE5FE1CC336F400FC5BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				505BE6021CC336F400FC5BC4 /* PBXTargetDependency */,
+			);
+			name = "Project 16 - UITableViewCountdownUITests";
+			productName = "Project 16 - UITableViewCountdownUITests";
+			productReference = 505BE6001CC336F400FC5BC4 /* Project 16 - UITableViewCountdownUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		505BE5D91CC336F300FC5BC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ZhangQingjie;
+				TargetAttributes = {
+					505BE5E01CC336F400FC5BC4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					505BE5F41CC336F400FC5BC4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 505BE5E01CC336F400FC5BC4;
+					};
+					505BE5FF1CC336F400FC5BC4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 505BE5E01CC336F400FC5BC4;
+					};
+				};
+			};
+			buildConfigurationList = 505BE5DC1CC336F300FC5BC4 /* Build configuration list for PBXProject "Project 16 - UITableViewCountdown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 505BE5D81CC336F300FC5BC4;
+			productRefGroup = 505BE5E21CC336F400FC5BC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				505BE5E01CC336F400FC5BC4 /* Project 16 - UITableViewCountdown */,
+				505BE5F41CC336F400FC5BC4 /* Project 16 - UITableViewCountdownTests */,
+				505BE5FF1CC336F400FC5BC4 /* Project 16 - UITableViewCountdownUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		505BE5DF1CC336F400FC5BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505BE6151CC3384D00FC5BC4 /* TimeTableViewCell.xib in Resources */,
+				505BE5EF1CC336F400FC5BC4 /* LaunchScreen.storyboard in Resources */,
+				505BE5EC1CC336F400FC5BC4 /* Assets.xcassets in Resources */,
+				505BE5EA1CC336F400FC5BC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505BE5F31CC336F400FC5BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505BE5FE1CC336F400FC5BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		505BE5DD1CC336F400FC5BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505BE5E51CC336F400FC5BC4 /* AppDelegate.swift in Sources */,
+				505BE6171CC3396A00FC5BC4 /* TimeModel.swift in Sources */,
+				505BE6191CC33AEE00FC5BC4 /* TimeTableViewController.swift in Sources */,
+				505BE6141CC3384D00FC5BC4 /* TimeTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505BE5F11CC336F400FC5BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505BE5FA1CC336F400FC5BC4 /* Project_16___UITableViewCountdownTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505BE5FC1CC336F400FC5BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505BE6051CC336F400FC5BC4 /* Project_16___UITableViewCountdownUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		505BE5F71CC336F400FC5BC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 505BE5E01CC336F400FC5BC4 /* Project 16 - UITableViewCountdown */;
+			targetProxy = 505BE5F61CC336F400FC5BC4 /* PBXContainerItemProxy */;
+		};
+		505BE6021CC336F400FC5BC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 505BE5E01CC336F400FC5BC4 /* Project 16 - UITableViewCountdown */;
+			targetProxy = 505BE6011CC336F400FC5BC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		505BE5E81CC336F400FC5BC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				505BE5E91CC336F400FC5BC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		505BE5ED1CC336F400FC5BC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				505BE5EE1CC336F400FC5BC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		505BE6071CC336F400FC5BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		505BE6081CC336F400FC5BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		505BE60A1CC336F400FC5BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project 16 - UITableViewCountdown/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZhangQingjie.Project-16---UITableViewCountdown";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		505BE60B1CC336F400FC5BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project 16 - UITableViewCountdown/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZhangQingjie.Project-16---UITableViewCountdown";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		505BE60D1CC336F400FC5BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Project 16 - UITableViewCountdownTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZhangQingjie.Project-16---UITableViewCountdownTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project 16 - UITableViewCountdown.app/Project 16 - UITableViewCountdown";
+			};
+			name = Debug;
+		};
+		505BE60E1CC336F400FC5BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Project 16 - UITableViewCountdownTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZhangQingjie.Project-16---UITableViewCountdownTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project 16 - UITableViewCountdown.app/Project 16 - UITableViewCountdown";
+			};
+			name = Release;
+		};
+		505BE6101CC336F400FC5BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Project 16 - UITableViewCountdownUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZhangQingjie.Project-16---UITableViewCountdownUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Project 16 - UITableViewCountdown";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		505BE6111CC336F400FC5BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Project 16 - UITableViewCountdownUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZhangQingjie.Project-16---UITableViewCountdownUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Project 16 - UITableViewCountdown";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		505BE5DC1CC336F300FC5BC4 /* Build configuration list for PBXProject "Project 16 - UITableViewCountdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505BE6071CC336F400FC5BC4 /* Debug */,
+				505BE6081CC336F400FC5BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		505BE6091CC336F400FC5BC4 /* Build configuration list for PBXNativeTarget "Project 16 - UITableViewCountdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505BE60A1CC336F400FC5BC4 /* Debug */,
+				505BE60B1CC336F400FC5BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		505BE60C1CC336F400FC5BC4 /* Build configuration list for PBXNativeTarget "Project 16 - UITableViewCountdownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505BE60D1CC336F400FC5BC4 /* Debug */,
+				505BE60E1CC336F400FC5BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		505BE60F1CC336F400FC5BC4 /* Build configuration list for PBXNativeTarget "Project 16 - UITableViewCountdownUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505BE6101CC336F400FC5BC4 /* Debug */,
+				505BE6111CC336F400FC5BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 505BE5D91CC336F300FC5BC4 /* Project object */;
+}
