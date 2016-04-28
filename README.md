@@ -115,3 +115,9 @@
 >Used technology:
 >>StoryBoard unwind Segue<br>
 >>UIViewControllerAnimatedTransitioning and UIViewControllerTransitingingDelegate
+
+=
+##### Project 18 - CollectionViewAnimation
+![](https://github.com/HugSea/NDaysOfSwift/raw/master/Project 18 - CollectionViewAnimation/CollectionViewAnimation.gif)<br>
+>Used technology:
+>>UICollectionView...
