@@ -121,3 +121,10 @@
 ![](https://github.com/HugSea/NDaysOfSwift/raw/master/Project 18 - CollectionViewAnimation/CollectionViewAnimation.gif)<br>
 >Used technology:
 >>UICollectionView...
+
+=
+##### Project 19 - SimulateClock
+![](https://github.com/HugSea/NDaysOfSwift/raw/master/Project 19 - SimulateClock/SimulateClock.gif)<br>
+>Used technology:
+>>NSTimer<br>
+>>Setting layer’s transform(CATransform3DRotate)
