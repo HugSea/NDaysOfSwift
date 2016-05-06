@@ -128,3 +128,9 @@
 >Used technology:
 >>NSTimer<br>
 >>Setting layer’s transform(CATransform3DRotate)
+
+=
+##### Project 20 - TopTagRollView
+![](https://github.com/HugSea/NDaysOfSwift/raw/master/Project 20 - TopTagRollView/TopTagRollView.gif)<br>
+>Used technology:
+>>UIView.maskView
