@@ -134,3 +134,9 @@
 ![](https://github.com/HugSea/NDaysOfSwift/raw/master/Project 20 - TopTagRollView/TopTagRollView.gif)<br>
 >Used technology:
 >>UIView.maskView
+
+=
+##### Project 21 - UIScrollViewVisualDifference
+![](https://github.com/HugSea/NDaysOfSwift/raw/master/Project 21 - UIScrollViewVisualDifference/UIScrollViewVisualDifference.gif)<br>
+>Used technology:
+>>According to UIScrollView’s Delegate Methods Calculate PictureView’s imageView’s x
